@@ -1,0 +1,135 @@
+/*--------content---------*/
+.heading {
+    background-color: #F8F8F8;
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    @media only screen and (max-width: 751px){
+        background-color: #FFFFFF;
+        h2 {
+            margin: 0;
+            font-size: 21px;
+        }
+        .rem{
+            margin: 0 -15px;
+        }
+        .head-name{
+            width: 100%;
+        }
+    }
+}
+
+.overall-content{
+    @media only screen and (max-width: 751px){
+        .rem{
+            margin: 0 -15px;
+        }
+        p[class="basic-content"]{
+            font-size: 22px;
+            @media only screen and (max-width: 451px){
+               font-size: 18px;
+            }
+        } 
+    }
+}
+
+.basic-content {
+    margin-top: 15px;
+    @media only screen and (max-width: 751px){
+        margin: 20px 0;
+        padding: 10px;
+    }
+}
+
+.heading+div {
+    background-image: url(../../images/abstraction_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collage {
+    background-image: url(../../images/abstraction_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media only screen and (max-width: 1001px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        img[alt="collage"]{
+            display: none;
+        }
+        div{
+            width: 562px;
+            height: 341px;
+            margin: 0 auto;
+            background-image: url(../../images/collage_mob.jpg);
+        } 
+    }
+    @media only screen and (max-width: 640px){
+         div{
+            width: 300px;
+            height: 182px;
+            margin: 0 auto;
+            background-image: url(../../images/collage_mob_300.jpg);
+        } 
+    }
+    @media only screen and (max-width: 451px){
+         display: none;
+    }
+}
+
+footer {
+    background-image: url(../../images/abstraction_3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer>div {
+    p {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    @media only screen and (max-width: 751px){
+        .rem{
+            margin: 0 -15px;
+        }
+        p{
+          font-size: 23px;    
+        }
+    }
+    @media only screen and (max-width: 351px){
+        p{
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.net {
+    width: 125px;
+    margin: 30px auto;
+    a {
+        margin: auto;
+    }
+}
+
+.fa-google-plus-square {
+    color: #43668B;
+}
+
+.fa-facebook-official {
+    color: #3F5693;
+}
+
+.fa-twitter-square {
+    color: #3BADF3;
+}
+
+.fa:hover {
+    color: red;
+}

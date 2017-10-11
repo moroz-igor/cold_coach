@@ -1,0 +1,4 @@
+1)
+cd Web_project\test_landing\sass_perfom
+2)
+sass --watch scss/style.scss:css/style.css

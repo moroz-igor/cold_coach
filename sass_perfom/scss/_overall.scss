@@ -1,0 +1,59 @@
+/*overall*/
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,em,img,strong,sub,sup,i,ol,ul,li,thead,tr,th,footer,section,
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color:dimgrey;
+}
+
+#section {
+    background-color: #FFFFFF;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding-top: 26px;
+    @media only screen and (max-width: 751px){
+        max-width: 640px;  
+        padding-left: 37px;
+        padding-right: 40px;
+    }
+    @media only screen and (max-width: 451px){
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+    @media only screen and (max-width: 351px){
+        padding: 0; 
+    }
+}
+
+.center {text-align: center;}
+.midl{margin: 0 auto;}
+
+$orange: #FF621F;
+$black: #2B2E35;
+$gray: #EAEAEA;
+$red: #FF332A;
+
+a {color: #ffffff; text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.fs_24 {font-size: 24px;}
+.fs_22 {font-size: 22px;}
+
+.orange {color: $orange;}
+.italic {font-style: italic;}
+
+h4 {font-family: PTSans; font-size: 27px; color: #18374b;}
+h2 {font-weight: bold;}
+
+.rem {
+    margin: 0 -30px;
+    @media only screen and (max-width: 981px) {
+        margin: 0;
+    }
+}

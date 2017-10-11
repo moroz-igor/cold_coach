@@ -1,0 +1,240 @@
+/*blocks*/
+@media only screen and (max-width: 751px){
+    .revers{
+        flex-direction: column-reverse;
+        margin: 0 -15px;
+    } 
+}
+
+.orange-block {
+    width: 50%;
+    background-color: $orange;
+    color: aliceblue;
+    ul {
+        padding-right: 20px;
+    }
+    li {
+        margin-top: 15px;
+        margin-left: 86px;
+        margin-right: 36px;
+        @media only screen and (max-width: 451px){
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 10px;
+        }
+    }
+    h2 {
+        font-size: 22px;
+    }
+    @media only screen and (max-width: 751px){
+            width: 100%; 
+    }
+}
+
+h3[class="italic"] {
+    font-family: Georgia;
+}
+
+.gray-block {
+    width: 50%;
+    background-color: $gray;
+    flex-grow: 1;
+    padding-right: 31px;
+    @media only screen and (max-width: 751px){
+            width: 100%;    
+    }
+    @media only screen and (max-width: 451px){
+        font-size: 16px;
+        padding-right: 5px;
+    }
+}
+
+.flex-container {
+    display: flex;
+}
+
+.date {
+    margin-left: 17px;
+    margin-top: 28px;
+    margin-bottom: 55px;
+}
+
+#rectangle-date {
+    width: 126px;
+    height: 121px;
+    background-image: url(../../images/rectangle%203.png);
+    font-family: PTSans;
+    margin-top: 10px;
+}
+
+.dotted-line {
+    border-top: 1px dashed white;
+    width: 90%;
+}
+
+.dotted-line_2 {
+    border-top: 1px dashed $black;
+    width: 90%;
+    margin: 35px auto;
+    @media only screen and (max-width: 751px){
+        margin-top: 15px;
+    }
+}
+
+#monthe {
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#day {
+    font-family: PTSans;
+    font-size: 70.5px;
+    font-weight: bold;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+#element-date-2 {
+    margin-left: 32px;
+    width: 100%;
+}
+
+div[id="element-date-2"] p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+#time {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.orange-block ul {
+    font-family: PTSans;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.gray-name {
+    font-size: 21px;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.timer {
+    justify-content: space-around;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.element-timer {
+    color: aliceblue;
+    width: 67px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #2b2e35;
+    font-size: 48px;
+}
+
+div[class="gray-name"]>p {
+    font-size: 19px;
+    text-align: left;
+    margin-left: 38px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+div[class="element-timer"]>p {
+    color: $black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.element-gray {
+    font-size: 22px;
+    text-align: left;
+    color: #2b2e35;
+    i {
+        color: $red;
+        margin-right: 14px;
+        margin-left: 42px;
+        @media only screen and (max-width: 451px){
+            margin-right: 10px;
+            margin-left: 10px; 
+        }
+    }
+}
+
+#format {
+    margin: 50px auto 0;
+    font-family: Georgia;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    color: #2b2e35;
+    max-width: 560px;
+        @media only screen and (max-width: 751px){
+            font-size: 27.8px;
+            margin-bottom: 30px;
+        }
+    
+}
+
+span[id="des"] {
+    font-size: 30px;
+       @media only screen and (max-width: 751px){
+        display: none;
+        }
+    }
+
+span[id="mob"]{
+    display: none;
+       @media only screen and (max-width: 751px){
+            display: inline-block;
+        font-size: 35px;
+        }
+    }
+span[id="all"]{
+       @media only screen and (max-width: 751px){
+            display: block;
+        }
+    }
+
+.rectangle-5 {
+    max-width: 382px;
+    margin: 47px auto 25px;
+    padding: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    background-color: #ff621f;
+    @media only screen and (max-width: 751px){
+        margin-top: 0;
+        margin-bottom: 15px;
+        }
+}
+
+div[class="rectangle-5"]+p {
+    font-size: 29px;
+    text-align: center;
+    color: #2b2e35;
+    width: 70%;
+    margin: 0 auto;
+        @media only screen and (max-width: 751px){
+            width: 100%;
+        }
+    span{
+        @media only screen and (max-width: 751px){
+            display: block;
+        }
+    }
+    
+}
